@@ -36,7 +36,7 @@ while tries > 0:
 
     if guess not in word:
         tries -= 1
-        print("❌ Wrong! Tries left:", tries)
+        print(" Wrong! Tries left:", tries)
     else:
         print(" Correct!")
 
